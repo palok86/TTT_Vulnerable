@@ -36,6 +36,8 @@ public class HelloServlet extends HttpServlet
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) 
 			throws ServletException, IOException 
 		{
+			
+		
 		PrintWriter out = response.getWriter();
 		String username=request.getParameter("username");
 		String password=request.getParameter("password");
@@ -46,7 +48,6 @@ public class HelloServlet extends HttpServlet
 		
 
 		//DB Connection 
-		
 		try {
 
             Connection conn = null;
