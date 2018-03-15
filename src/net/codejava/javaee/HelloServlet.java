@@ -1,8 +1,6 @@
 package net.codejava.javaee;
-
 import java.io.IOException;
 import java.io.*;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -12,7 +10,6 @@ import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.sql.*;
-
 /**
  * Servlet implementation class HelloServlet
  */
@@ -76,5 +73,4 @@ public class HelloServlet extends HttpServlet
             out.close();
         }
 	}
-
 }
